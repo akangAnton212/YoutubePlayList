@@ -54,7 +54,7 @@ class ListVideo extends StatelessWidget {
             children: <Widget>[
               new GestureDetector(
                 onTap: ()=> Navigator.of(context).push(new MaterialPageRoute(
-                  builder: (BuildContext context)=>new VideoPlay(url: "https://www.youtube.com/embed/${list[i]['contentDetails']['videoId']}")
+                  builder: (BuildContext context)=>new VideoPlay(url: "https://youtube.com/embed/${list[i]['contentDetails']['videoId']}")
                 )),
                 child: new Container(
                   height: 200.0,
